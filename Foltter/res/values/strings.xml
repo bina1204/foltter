@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, StartActivity!</string>
+    <string name="app_name">Foltter</string>
+    <string name="new_fragment">New Fragment</string>
+    <string name="folder_name">Folder Name</string>
+    <string name="folder_name_hint">Enter folder name</string>
+    <string name="btn_add">ADD</string>
+
+</resources>

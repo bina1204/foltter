@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/dimgray"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background_normal"
+        android:text="@string/folder_name"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/folder_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/folder_name_hint" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_add_folder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="100dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:layout_gravity="center"
+        android:text="@string/btn_add" />
+
+</LinearLayout>
