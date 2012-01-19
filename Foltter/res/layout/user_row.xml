@@ -4,13 +4,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <com.gsbina.android.view.FolderView
+    <com.gsbina.android.foltter.FolderView
         android:id="@+id/user"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:drawableTop="@drawable/ic_launcher"
+        android:drawableTop="@drawable/bird_gray"
         android:singleLine="true"
         android:scrollHorizontally="true"
         android:gravity="center"

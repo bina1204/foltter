@@ -1,11 +1,11 @@
 
-package com.gsbina.android.view;
+package com.gsbina.android.foltter;
+
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
-import com.gsbina.android.foltter.Folder;
 
 public class FolderView extends TextView {
 

@@ -14,8 +14,6 @@ import android.widget.FrameLayout;
 import android.widget.TabHost;
 import android.widget.TabWidget;
 
-import com.gsbina.android.view.FolderView;
-
 public class FolderListActivity extends FragmentActivity {
 
     private TabHost mTabHost;
@@ -37,10 +35,7 @@ public class FolderListActivity extends FragmentActivity {
 
         mTabManager = new TabManager(this, mTabHost, R.id.realtabcontent);
 
-        // TODO : データベースからフォルダ読み込み、作成
-        int i = 1;
-        createTab(i++, "仕事");
-        createTab(i++, "友達");
+        // TODO データベースからフォルダ読み込み、作成
 
         createOtherTab();
 
